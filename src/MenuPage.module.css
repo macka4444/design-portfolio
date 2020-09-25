@@ -1,12 +1,45 @@
-﻿.container{
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+.container{
   height: 100vh;
-  width: 100vw;
+  /* width: 100vw; */
   display:flex;
-  justify-content: center;
+  flex-direction: column;
+  /* justify-content: center; */
   align-items: center;
-  background-color: tomato;
+  background-color: #ffd618;
+
 }
 
-.intro-macka-logo {
-  height: 30vmin;
+.macka_logo {
+  height: 18vh;
+  margin-block-start: 60px;
+  
+}
+
+ul{
+  margin-block-start: 60px;
+  margin-bottom: 0;
+  text-align: center;
+  list-style: none;
+  padding:0;
+  overflow: scroll;
+  -ms-overflow-style: none;  /* IE and Edge hide scrollbar */
+  scrollbar-width: none;  /* Firefox hide scrollbar */
+}
+
+ul::-webkit-scrollbar {
+  display: none; /* chromw hide scrollbar */
+}
+
+li{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+  margin-bottom:30px;
+  -webkit-text-stroke: 2px #00C0FF;
+  -webkit-text-fill-color: #ffd618;
+}
+
+li:hover{
+  -webkit-text-stroke: 2px #FF00E4;
 }
