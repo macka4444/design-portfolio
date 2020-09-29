@@ -1,20 +1,29 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 .container{
+  position: fixed;
+  left:0;
+  top:0;
   height: 100vh;
-  /* width: 100vw; */
   display:flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
-  background-color: #ffd618;
+  background-color: rgb(255, 208, 0);
+  clip-path: inset(100vh 0px 0px 0px);
+  animation-name: wipe-in;
+  animation-delay: 1.5s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
 
+@keyframes wipe-in {
+  from {}
+  to {clip-path: inset(0px 0px 0vh 0px);}
 }
 
 .macka_logo {
   height: 18vh;
   margin-block-start: 60px;
-  
 }
 
 ul{
@@ -38,7 +47,7 @@ li{
   font-size: 4em;
   margin-bottom:30px;
   -webkit-text-stroke: 2px #00C0FF;
-  -webkit-text-fill-color: #ffd618;
+  -webkit-text-fill-color: rgb(255, 208, 0);
 }
 
 li:hover{

@@ -4,15 +4,17 @@ import './App.css';
 import MenuPage from './MenuPage.js'
 
 const Intro = () => (
-  <div className="container">
+  <div className="intro-container">
     <img src={logo} className="intro-macka-logo" alt="macka logo" />
   </div>
 )
 
 function App() {
   return (
-    // <Intro/>
-    <MenuPage/>
+    <div>
+      <Intro/>
+      <MenuPage/>
+    </div>
     
   );
 }
