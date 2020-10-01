@@ -16,6 +16,22 @@
   animation-fill-mode: forwards;
 }
 
+.container_no_animation{
+  position: fixed;
+  left:0;
+  top:0;
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 208, 0);
+  clip-path: none;
+  animation-name: none;
+  animation-delay: 1.5s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
 @keyframes wipe-in {
   from {}
   to {clip-path: inset(0px 0px 0vh 0px);}

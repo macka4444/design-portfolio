@@ -1,0 +1,26 @@
+﻿.container{
+    height: 100vh;
+    width: 100vw;
+}
+
+nav{
+    height: 100vh;
+    width: 280px;
+    float: left;
+}
+
+.content{
+    width: calc(100vw - 280px);
+    height: 100vh;
+    background-color: #fffde3;
+    float: right;
+    display: flex;
+}
+
+.gallery{
+    flex:1;
+}
+
+.text{
+    flex:1;
+}
