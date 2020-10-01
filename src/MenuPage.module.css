@@ -43,13 +43,18 @@ ul::-webkit-scrollbar {
 }
 
 li{
+  margin-bottom: 30px;
+}
+
+.menu_item{
   font-family: 'Montserrat', sans-serif;
   font-size: 4em;
   margin-bottom:30px;
   -webkit-text-stroke: 2px #00C0FF;
   -webkit-text-fill-color: rgb(255, 208, 0);
+  text-decoration: none;
 }
 
-li:hover{
+.menu_item:hover{
   -webkit-text-stroke: 2px #FF00E4;
 }

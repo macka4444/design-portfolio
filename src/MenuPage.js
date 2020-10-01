@@ -1,6 +1,7 @@
 ﻿import React from 'react';
 import logo from './macka.png';
 import styles from './MenuPage.module.css';
+import { Link } from "react-router-dom";
 
 
 function MenuPage() {
@@ -8,15 +9,42 @@ function MenuPage() {
         <div className={styles.container}>
             <img src={logo} className={styles.macka_logo} alt="macka logo" />
             <ul>
-                <li>ABOUT</li>
-                <li>LETTERWORK</li>
-                <li>MAKING IMAGES</li>
-                <li>REFLECTIVE PRACTICE</li>
-                <li>ELEMENTS OF DESIGN</li>
-                <li>MAKE MY TYPE</li>
-                <li>CHANCE AND CHOICE</li>
+                <li> 
+                    <Link className={styles.menu_item} to="/about">
+                        ABOUT
+                    </Link>
+                </li>
+                <li> 
+                    <Link className={styles.menu_item} to="/letterwork">
+                        LETTERWORK
+                    </Link>
+                </li>
+                <li> 
+                    <Link className={styles.menu_item} to="/makingimages">
+                        MAKING IMAGES
+                    </Link>
+                </li>
+                <li> 
+                    <Link className={styles.menu_item} to="reflectivepractice">
+                        REFLECTIVE PRACTICE
+                    </Link>
+                </li>
+                <li> 
+                    <Link className={styles.menu_item} to="elementsofdesign">
+                        ELEMENTS OF DESIGN
+                    </Link>
+                </li>
+                <li> 
+                    <Link className={styles.menu_item} to="makemytype">
+                        MAKE MY TYPE
+                    </Link>
+                </li>
+                <li> 
+                    <Link className={styles.menu_item} to="chanceandchoice">
+                        CHANCE AND CHOICE
+                    </Link>
+                </li>
             </ul>
-            
         </div>
 
 
