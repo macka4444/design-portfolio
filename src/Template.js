@@ -1,14 +1,13 @@
 ﻿import React from 'react';
 import styles from './Template.module.css';
+import Navbar from './Navbar.js'
 
 
 const FilledTemplate = (props) => {
     let { content } = props
     return (
         <div className={styles.container}>
-            <nav>
-
-            </nav>
+            <Navbar/>
             <div className={styles.content}>
                 <div className={styles.gallery}>
                 </div>
