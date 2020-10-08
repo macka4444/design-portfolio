@@ -1,5 +1,5 @@
 ﻿import React from 'react';
-import logo from './macka.png';
+import logo from './logobg.svg';
 import styles from './MenuPage.module.css';
 import { Link } from "react-router-dom";
 

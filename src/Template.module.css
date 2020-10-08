@@ -12,15 +12,15 @@ nav{
 .content{
     width: calc(100vw - 280px);
     height: 100vh;
-    background-color: #fffde3;
+    background-color: #a5bf97;
     float: right;
     display: flex;
 }
 
 .gallery{
-    flex:1;
+    flex:3;
 }
 
 .text{
-    flex:1;
+    flex:2;
 }

@@ -22,12 +22,12 @@ nav{
   font-family: 'Montserrat', sans-serif;
   font-size: 1.15em;
   margin-bottom:30px;
-  color: #00C0FF;
+  color: #a5bf97;
   text-decoration: none;
 }
 
 .menu_item:hover{
-  color: #FF00E4;
+  color: #f7941d;
 }
 
 ul{

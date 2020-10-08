@@ -1,7 +1,7 @@
 ﻿import React from 'react';
 import styles from './Navbar.module.css';
 import { Link } from "react-router-dom";
-import logo from './macka.png';
+import logo from './logobg.svg';
 
 
 const Navbar = (props) => (

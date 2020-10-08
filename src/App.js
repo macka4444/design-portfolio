@@ -5,7 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 
-import logo from './macka.png';
+import logo from './logobg.svg';
 import './App.css';
 import MenuPage from './MenuPage.js'
 import MenuPageNoAnimation from './MenuPageNoAnimation.js'

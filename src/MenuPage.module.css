@@ -8,7 +8,7 @@
   display:flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(255, 208, 0);
+  background-color: #FFF8E3;
   clip-path: inset(100vh 0px 0px 0px);
   animation-name: wipe-in;
   animation-delay: 1.5s;
@@ -24,7 +24,7 @@
   display:flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(255, 208, 0);
+  background-color: #FFF8E3;
   clip-path: none;
   animation-name: none;
   animation-delay: 1.5s;
@@ -66,11 +66,10 @@ li{
   font-family: 'Montserrat', sans-serif;
   font-size: 4em;
   margin-bottom:30px;
-  -webkit-text-stroke: 2px #00C0FF;
-  -webkit-text-fill-color: rgb(255, 208, 0);
+  color: #a5bf97;
   text-decoration: none;
 }
 
 .menu_item:hover{
-  -webkit-text-stroke: 2px #FF00E4;
+  color: #f7941d;
 }
