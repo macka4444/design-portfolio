@@ -16,13 +16,14 @@ const Navbar = (props) => {
         ["/makemytype","MAKE MY TYPE"],
         ["/chanceandchoice","CHANCE AND CHOICE"],
     ]
+    let i = 0;
     const navMenuItems = pathnames.map(
         (name) => {
             const style = (name[0] === location)
                 ? styles.current_menu_item
                 : styles.menu_item
             return (
-                <li>
+                <li key={i++}>
                     <Link className={style} to={name[0]}>
                         {name[1]}
                     </Link>
@@ -36,43 +37,8 @@ const Navbar = (props) => {
             <Link to="/home">
                 <img src={logo} className={styles.logo} alt="macka logo" />
             </Link>
-            <ul>
+            <ul className={styles.menu_list}>
                 {navMenuItems}
-                {/* <li>
-                    <Link className={styles.menu_item} to="/about">
-                        ABOUT
-                        </Link>
-                </li>
-                <li>
-                    <Link className={styles.menu_item} to="/letterwork">
-                        LETTERWORK
-                        </Link>
-                </li>
-                <li>
-                    <Link className={styles.menu_item} to="/makingimages">
-                        MAKING IMAGES
-                        </Link>
-                </li>
-                <li>
-                    <Link className={styles.menu_item} to="/reflectivepractice">
-                        REFLECTIVE PRACTICE
-                        </Link>
-                </li>
-                <li>
-                    <Link className={styles.menu_item} to="elementsofdesign">
-                        ELEMENTS OF DESIGN
-                        </Link>
-                </li>
-                <li>
-                    <Link className={styles.menu_item} to="makemytype">
-                        MAKE MY TYPE
-                        </Link>
-                </li>
-                <li>
-                    <Link className={styles.menu_item} to="chanceandchoice">
-                        CHANCE AND CHOICE
-                        </Link>
-                </li> */}
             </ul>
         </nav>
     )

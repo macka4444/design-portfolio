@@ -11,6 +11,19 @@ import MenuPage from './MenuPage.js'
 import MenuPageNoAnimation from './MenuPageNoAnimation.js'
 import Page from './Template.js'
 
+import making_images_1 from "./photos/making_images/tiger.jpg"
+import making_images_2 from "./photos/making_images/rooster.jpg"
+import making_images_3 from "./photos/making_images/dragon.jpg"
+import making_images_4 from "./photos/making_images/ox.jpg"
+import making_images_5 from "./photos/making_images/snake.jpg"
+import making_images_6 from "./photos/making_images/horse.jpg"
+import making_images_7 from "./photos/making_images/goat.jpg"
+import making_images_8 from "./photos/making_images/pig.jpg"
+import making_images_9 from "./photos/making_images/rat.jpg"
+import making_images_10 from "./photos/making_images/monkey.jpg"
+import making_images_11 from "./photos/making_images/dog.jpg"
+import making_images_12 from "./photos/making_images/rabbit.jpg"
+
 const Intro = () => (
   <div className="intro-container">
     <img src={logo} className="intro-macka-logo" alt="macka logo" />
@@ -65,10 +78,9 @@ const about = {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc ut tellus neque.Mauris consequat mauris orci, varius tempor massa egestas nec.Praesent aliquam viverra quam.Integer nec volutpat nisl, fermentum dapibus tortor.Nam malesuada nunc ultrices imperdiet dignissim.Aenean interdum at tortor nec laoreet.Maecenas lorem odio, aliquet vel semper in, semper in libero.
       </p>
       <p>
-        Donec ultrices luctus tristique.Mauris at porta turpis.Vestibulum non pretium diam.Aenean ut maximus dolor.Morbi quis hendrerit neque, sed tristique nisl.Fusce dignissim nec nisi id vulputate.Nulla et varius augue, a consequat libero.Proin mi nisi, viverra ac lectus sit amet, bibendum tempor ipsum.Etiam vestibulum elit eget pulvinar efficitur.Proin at ligula convallis, posuere neque vitae, suscipit risus.Suspendisse hendrerit interdum nisl, vel porttitor lectus molestie quis.Nam et eros leo.Etiam pharetra sollicitudin porttitor.Nam porta condimentum nisi at convallis.In luctus imperdiet nisl, eget hendrerit nunc gravida non.</p>
-      <p>
-        Duis nec augue viverra, volutpat mi ac, tristique tellus.Duis a cursus orci.Nulla vel velit consequat, maximus diam ac, iaculis nunc.Integer eu pulvinar lorem.Maecenas blandit sed mauris iaculis mattis.Aenean est augue, ultrices ut metus nec, euismod porta risus.Morbi quis lacinia turpis, eu lobortis orci.Etiam sollicitudin est tristique, viverra lectus in, pellentesque est.Etiam maximus congue nibh, nec ullamcorper libero elementum in.Etiam facilisis convallis metus, et semper lorem finibus non.Fusce ut blandit augue.In sit amet malesuada arcu, ut suscipit tellus.Sed auctor eget justo non mattis.Curabitur a mi at mi tempus porttitor.Suspendisse at urna in dolor varius posuere sed quis lacus.
+        Donec ultrices luctus tristique.Mauris at porta turpis.Vestibulum non pretium diam.Aenean ut maximus dolor.Morbi quis hendrerit neque, sed tristique nisl.Fusce dignissim nec nisi id vulputate.Nulla et varius augue, a consequat libero.Proin mi nisi, viverra ac lectus sit amet, bibendum tempor ipsum.Etiam vestibulum elit eget pulvinar efficitur.Proin at ligula convallis, posuere neque vitae, suscipit risus.Suspendisse hendrerit interdum nisl, vel porttitor lectus molestie quis.Nam et eros leo.Etiam pharetra sollicitudin porttitor.Nam porta condimentum nisi at convallis.In luctus imperdiet nisl, eget hendrerit nunc gravida non.
       </p>
+      
     </div>
   )
 }
@@ -82,27 +94,38 @@ const letterwork = {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc ut tellus neque.Mauris consequat mauris orci, varius tempor massa egestas nec.Praesent aliquam viverra quam.Integer nec volutpat nisl, fermentum dapibus tortor.Nam malesuada nunc ultrices imperdiet dignissim.Aenean interdum at tortor nec laoreet.Maecenas lorem odio, aliquet vel semper in, semper in libero.
       </p>
       <p>
-        Donec ultrices luctus tristique.Mauris at porta turpis.Vestibulum non pretium diam.Aenean ut maximus dolor.Morbi quis hendrerit neque, sed tristique nisl.Fusce dignissim nec nisi id vulputate.Nulla et varius augue, a consequat libero.Proin mi nisi, viverra ac lectus sit amet, bibendum tempor ipsum.Etiam vestibulum elit eget pulvinar efficitur.Proin at ligula convallis, posuere neque vitae, suscipit risus.Suspendisse hendrerit interdum nisl, vel porttitor lectus molestie quis.Nam et eros leo.Etiam pharetra sollicitudin porttitor.Nam porta condimentum nisi at convallis.In luctus imperdiet nisl, eget hendrerit nunc gravida non.</p>
-      <p>
-        Duis nec augue viverra, volutpat mi ac, tristique tellus.Duis a cursus orci.Nulla vel velit consequat, maximus diam ac, iaculis nunc.Integer eu pulvinar lorem.Maecenas blandit sed mauris iaculis mattis.Aenean est augue, ultrices ut metus nec, euismod porta risus.Morbi quis lacinia turpis, eu lobortis orci.Etiam sollicitudin est tristique, viverra lectus in, pellentesque est.Etiam maximus congue nibh, nec ullamcorper libero elementum in.Etiam facilisis convallis metus, et semper lorem finibus non.Fusce ut blandit augue.In sit amet malesuada arcu, ut suscipit tellus.Sed auctor eget justo non mattis.Curabitur a mi at mi tempus porttitor.Suspendisse at urna in dolor varius posuere sed quis lacus.
+        Donec ultrices luctus tristique.Mauris at porta turpis.Vestibulum non pretium diam.Aenean ut maximus dolor.Morbi quis hendrerit neque, sed tristique nisl.Fusce dignissim nec nisi id vulputate.Nulla et varius augue, a consequat libero.Proin mi nisi, viverra ac lectus sit amet, bibendum tempor ipsum.Etiam vestibulum elit eget pulvinar efficitur.Proin at ligula convallis, posuere neque vitae, suscipit risus.Suspendisse hendrerit interdum nisl, vel porttitor lectus molestie quis.Nam et eros leo.Etiam pharetra sollicitudin porttitor.Nam porta condimentum nisi at convallis.In luctus imperdiet nisl, eget hendrerit nunc gravida non.
       </p>
+      
     </div>
   )
 }
 
 const makingimages = {
   title: "makingimages",
-  photos: [],
+  photos: [
+    [making_images_1, "Tiger collage"],
+    [making_images_2, "Rooster collage"],
+    [making_images_3, "Dragon collage"],
+    [making_images_4, "Ox collage"],
+    [making_images_5, "Snake collage"],
+    [making_images_6, "Horse collage"],
+    [making_images_7, "Goat collage"],
+    [making_images_8, "Pig collage"],
+    [making_images_9, "Rat collage"],
+    [making_images_10, "Monkey collage"],
+    [making_images_11, "Dog collage"],
+    [making_images_12, "Rabbit collage"],
+  ],
   description: (
     <div>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc ut tellus neque.Mauris consequat mauris orci, varius tempor massa egestas nec.Praesent aliquam viverra quam.Integer nec volutpat nisl, fermentum dapibus tortor.Nam malesuada nunc ultrices imperdiet dignissim.Aenean interdum at tortor nec laoreet.Maecenas lorem odio, aliquet vel semper in, semper in libero.
       </p>
       <p>
-        Donec ultrices luctus tristique.Mauris at porta turpis.Vestibulum non pretium diam.Aenean ut maximus dolor.Morbi quis hendrerit neque, sed tristique nisl.Fusce dignissim nec nisi id vulputate.Nulla et varius augue, a consequat libero.Proin mi nisi, viverra ac lectus sit amet, bibendum tempor ipsum.Etiam vestibulum elit eget pulvinar efficitur.Proin at ligula convallis, posuere neque vitae, suscipit risus.Suspendisse hendrerit interdum nisl, vel porttitor lectus molestie quis.Nam et eros leo.Etiam pharetra sollicitudin porttitor.Nam porta condimentum nisi at convallis.In luctus imperdiet nisl, eget hendrerit nunc gravida non.</p>
-      <p>
-        Duis nec augue viverra, volutpat mi ac, tristique tellus.Duis a cursus orci.Nulla vel velit consequat, maximus diam ac, iaculis nunc.Integer eu pulvinar lorem.Maecenas blandit sed mauris iaculis mattis.Aenean est augue, ultrices ut metus nec, euismod porta risus.Morbi quis lacinia turpis, eu lobortis orci.Etiam sollicitudin est tristique, viverra lectus in, pellentesque est.Etiam maximus congue nibh, nec ullamcorper libero elementum in.Etiam facilisis convallis metus, et semper lorem finibus non.Fusce ut blandit augue.In sit amet malesuada arcu, ut suscipit tellus.Sed auctor eget justo non mattis.Curabitur a mi at mi tempus porttitor.Suspendisse at urna in dolor varius posuere sed quis lacus.
+        Donec ultrices luctus tristique.Mauris at porta turpis.Vestibulum non pretium diam.Aenean ut maximus dolor.Morbi quis hendrerit neque, sed tristique nisl.Fusce dignissim nec nisi id vulputate.Nulla et varius augue, a consequat libero.Proin mi nisi, viverra ac lectus sit amet, bibendum tempor ipsum.Etiam vestibulum elit eget pulvinar efficitur.Proin at ligula convallis, posuere neque vitae, suscipit risus.Suspendisse hendrerit interdum nisl, vel porttitor lectus molestie quis.Nam et eros leo.Etiam pharetra sollicitudin porttitor.Nam porta condimentum nisi at convallis.In luctus imperdiet nisl, eget hendrerit nunc gravida non.
       </p>
+      
     </div>
   )
 }
@@ -116,10 +139,9 @@ const reflectivepractice = {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc ut tellus neque.Mauris consequat mauris orci, varius tempor massa egestas nec.Praesent aliquam viverra quam.Integer nec volutpat nisl, fermentum dapibus tortor.Nam malesuada nunc ultrices imperdiet dignissim.Aenean interdum at tortor nec laoreet.Maecenas lorem odio, aliquet vel semper in, semper in libero.
       </p>
       <p>
-        Donec ultrices luctus tristique.Mauris at porta turpis.Vestibulum non pretium diam.Aenean ut maximus dolor.Morbi quis hendrerit neque, sed tristique nisl.Fusce dignissim nec nisi id vulputate.Nulla et varius augue, a consequat libero.Proin mi nisi, viverra ac lectus sit amet, bibendum tempor ipsum.Etiam vestibulum elit eget pulvinar efficitur.Proin at ligula convallis, posuere neque vitae, suscipit risus.Suspendisse hendrerit interdum nisl, vel porttitor lectus molestie quis.Nam et eros leo.Etiam pharetra sollicitudin porttitor.Nam porta condimentum nisi at convallis.In luctus imperdiet nisl, eget hendrerit nunc gravida non.</p>
-      <p>
-        Duis nec augue viverra, volutpat mi ac, tristique tellus.Duis a cursus orci.Nulla vel velit consequat, maximus diam ac, iaculis nunc.Integer eu pulvinar lorem.Maecenas blandit sed mauris iaculis mattis.Aenean est augue, ultrices ut metus nec, euismod porta risus.Morbi quis lacinia turpis, eu lobortis orci.Etiam sollicitudin est tristique, viverra lectus in, pellentesque est.Etiam maximus congue nibh, nec ullamcorper libero elementum in.Etiam facilisis convallis metus, et semper lorem finibus non.Fusce ut blandit augue.In sit amet malesuada arcu, ut suscipit tellus.Sed auctor eget justo non mattis.Curabitur a mi at mi tempus porttitor.Suspendisse at urna in dolor varius posuere sed quis lacus.
+        Donec ultrices luctus tristique.Mauris at porta turpis.Vestibulum non pretium diam.Aenean ut maximus dolor.Morbi quis hendrerit neque, sed tristique nisl.Fusce dignissim nec nisi id vulputate.Nulla et varius augue, a consequat libero.Proin mi nisi, viverra ac lectus sit amet, bibendum tempor ipsum.Etiam vestibulum elit eget pulvinar efficitur.Proin at ligula convallis, posuere neque vitae, suscipit risus.Suspendisse hendrerit interdum nisl, vel porttitor lectus molestie quis.Nam et eros leo.Etiam pharetra sollicitudin porttitor.Nam porta condimentum nisi at convallis.In luctus imperdiet nisl, eget hendrerit nunc gravida non.
       </p>
+      
     </div>
   )
 }
@@ -133,10 +155,9 @@ const elementsofdesign = {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc ut tellus neque.Mauris consequat mauris orci, varius tempor massa egestas nec.Praesent aliquam viverra quam.Integer nec volutpat nisl, fermentum dapibus tortor.Nam malesuada nunc ultrices imperdiet dignissim.Aenean interdum at tortor nec laoreet.Maecenas lorem odio, aliquet vel semper in, semper in libero.
       </p>
       <p>
-        Donec ultrices luctus tristique.Mauris at porta turpis.Vestibulum non pretium diam.Aenean ut maximus dolor.Morbi quis hendrerit neque, sed tristique nisl.Fusce dignissim nec nisi id vulputate.Nulla et varius augue, a consequat libero.Proin mi nisi, viverra ac lectus sit amet, bibendum tempor ipsum.Etiam vestibulum elit eget pulvinar efficitur.Proin at ligula convallis, posuere neque vitae, suscipit risus.Suspendisse hendrerit interdum nisl, vel porttitor lectus molestie quis.Nam et eros leo.Etiam pharetra sollicitudin porttitor.Nam porta condimentum nisi at convallis.In luctus imperdiet nisl, eget hendrerit nunc gravida non.</p>
-      <p>
-        Duis nec augue viverra, volutpat mi ac, tristique tellus.Duis a cursus orci.Nulla vel velit consequat, maximus diam ac, iaculis nunc.Integer eu pulvinar lorem.Maecenas blandit sed mauris iaculis mattis.Aenean est augue, ultrices ut metus nec, euismod porta risus.Morbi quis lacinia turpis, eu lobortis orci.Etiam sollicitudin est tristique, viverra lectus in, pellentesque est.Etiam maximus congue nibh, nec ullamcorper libero elementum in.Etiam facilisis convallis metus, et semper lorem finibus non.Fusce ut blandit augue.In sit amet malesuada arcu, ut suscipit tellus.Sed auctor eget justo non mattis.Curabitur a mi at mi tempus porttitor.Suspendisse at urna in dolor varius posuere sed quis lacus.
+        Donec ultrices luctus tristique.Mauris at porta turpis.Vestibulum non pretium diam.Aenean ut maximus dolor.Morbi quis hendrerit neque, sed tristique nisl.Fusce dignissim nec nisi id vulputate.Nulla et varius augue, a consequat libero.Proin mi nisi, viverra ac lectus sit amet, bibendum tempor ipsum.Etiam vestibulum elit eget pulvinar efficitur.Proin at ligula convallis, posuere neque vitae, suscipit risus.Suspendisse hendrerit interdum nisl, vel porttitor lectus molestie quis.Nam et eros leo.Etiam pharetra sollicitudin porttitor.Nam porta condimentum nisi at convallis.In luctus imperdiet nisl, eget hendrerit nunc gravida non.
       </p>
+      
     </div>
   )
 }
@@ -150,10 +171,9 @@ const makemytype = {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc ut tellus neque.Mauris consequat mauris orci, varius tempor massa egestas nec.Praesent aliquam viverra quam.Integer nec volutpat nisl, fermentum dapibus tortor.Nam malesuada nunc ultrices imperdiet dignissim.Aenean interdum at tortor nec laoreet.Maecenas lorem odio, aliquet vel semper in, semper in libero.
       </p>
       <p>
-        Donec ultrices luctus tristique.Mauris at porta turpis.Vestibulum non pretium diam.Aenean ut maximus dolor.Morbi quis hendrerit neque, sed tristique nisl.Fusce dignissim nec nisi id vulputate.Nulla et varius augue, a consequat libero.Proin mi nisi, viverra ac lectus sit amet, bibendum tempor ipsum.Etiam vestibulum elit eget pulvinar efficitur.Proin at ligula convallis, posuere neque vitae, suscipit risus.Suspendisse hendrerit interdum nisl, vel porttitor lectus molestie quis.Nam et eros leo.Etiam pharetra sollicitudin porttitor.Nam porta condimentum nisi at convallis.In luctus imperdiet nisl, eget hendrerit nunc gravida non.</p>
-      <p>
-        Duis nec augue viverra, volutpat mi ac, tristique tellus.Duis a cursus orci.Nulla vel velit consequat, maximus diam ac, iaculis nunc.Integer eu pulvinar lorem.Maecenas blandit sed mauris iaculis mattis.Aenean est augue, ultrices ut metus nec, euismod porta risus.Morbi quis lacinia turpis, eu lobortis orci.Etiam sollicitudin est tristique, viverra lectus in, pellentesque est.Etiam maximus congue nibh, nec ullamcorper libero elementum in.Etiam facilisis convallis metus, et semper lorem finibus non.Fusce ut blandit augue.In sit amet malesuada arcu, ut suscipit tellus.Sed auctor eget justo non mattis.Curabitur a mi at mi tempus porttitor.Suspendisse at urna in dolor varius posuere sed quis lacus.
+        Donec ultrices luctus tristique.Mauris at porta turpis.Vestibulum non pretium diam.Aenean ut maximus dolor.Morbi quis hendrerit neque, sed tristique nisl.Fusce dignissim nec nisi id vulputate.Nulla et varius augue, a consequat libero.Proin mi nisi, viverra ac lectus sit amet, bibendum tempor ipsum.Etiam vestibulum elit eget pulvinar efficitur.Proin at ligula convallis, posuere neque vitae, suscipit risus.Suspendisse hendrerit interdum nisl, vel porttitor lectus molestie quis.Nam et eros leo.Etiam pharetra sollicitudin porttitor.Nam porta condimentum nisi at convallis.In luctus imperdiet nisl, eget hendrerit nunc gravida non.
       </p>
+      
     </div>
   )
 }
@@ -167,10 +187,9 @@ const chanceandchoice = {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc ut tellus neque.Mauris consequat mauris orci, varius tempor massa egestas nec.Praesent aliquam viverra quam.Integer nec volutpat nisl, fermentum dapibus tortor.Nam malesuada nunc ultrices imperdiet dignissim.Aenean interdum at tortor nec laoreet.Maecenas lorem odio, aliquet vel semper in, semper in libero.
       </p>
       <p>
-        Donec ultrices luctus tristique.Mauris at porta turpis.Vestibulum non pretium diam.Aenean ut maximus dolor.Morbi quis hendrerit neque, sed tristique nisl.Fusce dignissim nec nisi id vulputate.Nulla et varius augue, a consequat libero.Proin mi nisi, viverra ac lectus sit amet, bibendum tempor ipsum.Etiam vestibulum elit eget pulvinar efficitur.Proin at ligula convallis, posuere neque vitae, suscipit risus.Suspendisse hendrerit interdum nisl, vel porttitor lectus molestie quis.Nam et eros leo.Etiam pharetra sollicitudin porttitor.Nam porta condimentum nisi at convallis.In luctus imperdiet nisl, eget hendrerit nunc gravida non.</p>
-      <p>
-        Duis nec augue viverra, volutpat mi ac, tristique tellus.Duis a cursus orci.Nulla vel velit consequat, maximus diam ac, iaculis nunc.Integer eu pulvinar lorem.Maecenas blandit sed mauris iaculis mattis.Aenean est augue, ultrices ut metus nec, euismod porta risus.Morbi quis lacinia turpis, eu lobortis orci.Etiam sollicitudin est tristique, viverra lectus in, pellentesque est.Etiam maximus congue nibh, nec ullamcorper libero elementum in.Etiam facilisis convallis metus, et semper lorem finibus non.Fusce ut blandit augue.In sit amet malesuada arcu, ut suscipit tellus.Sed auctor eget justo non mattis.Curabitur a mi at mi tempus porttitor.Suspendisse at urna in dolor varius posuere sed quis lacus.
+        Donec ultrices luctus tristique.Mauris at porta turpis.Vestibulum non pretium diam.Aenean ut maximus dolor.Morbi quis hendrerit neque, sed tristique nisl.Fusce dignissim nec nisi id vulputate.Nulla et varius augue, a consequat libero.Proin mi nisi, viverra ac lectus sit amet, bibendum tempor ipsum.Etiam vestibulum elit eget pulvinar efficitur.Proin at ligula convallis, posuere neque vitae, suscipit risus.Suspendisse hendrerit interdum nisl, vel porttitor lectus molestie quis.Nam et eros leo.Etiam pharetra sollicitudin porttitor.Nam porta condimentum nisi at convallis.In luctus imperdiet nisl, eget hendrerit nunc gravida non.
       </p>
+      
     </div>
   )
 }
