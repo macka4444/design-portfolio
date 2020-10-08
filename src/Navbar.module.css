@@ -26,6 +26,14 @@ nav{
   text-decoration: none;
 }
 
+.current_menu_item{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.15em;
+  margin-bottom:30px;
+  color: #688d52;
+  text-decoration: none;
+}
+
 .menu_item:hover{
   color: #f7941d;
 }

@@ -13,7 +13,7 @@ const FilledTemplate = (props) => {
                 </div>
                 <div className={styles.text}>
                     <h1>{content.title}</h1>
-                    <p>{content.description}</p>
+                    {content.description}
                 </div>
             </div>
         </div>
