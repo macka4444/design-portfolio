@@ -102,7 +102,7 @@ const letterwork = {
 }
 
 const makingimages = {
-  title: "makingimages",
+  title: "MAKING IMAGES",
   photos: [
     [making_images_1, "Tiger collage"],
     [making_images_2, "Rooster collage"],
@@ -119,11 +119,14 @@ const makingimages = {
   ],
   description: (
     <div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc ut tellus neque.Mauris consequat mauris orci, varius tempor massa egestas nec.Praesent aliquam viverra quam.Integer nec volutpat nisl, fermentum dapibus tortor.Nam malesuada nunc ultrices imperdiet dignissim.Aenean interdum at tortor nec laoreet.Maecenas lorem odio, aliquet vel semper in, semper in libero.
+      <p className="body-text">
+        This brief called for the synthesis of imagery and elements of graphic language to create twelve 
+        images corresponding to the animals of the Chinese zodiac. All images have been hand cut and 
+        physically constructed out of coloured paper and found images from magazines.
       </p>
-      <p>
-        Donec ultrices luctus tristique.Mauris at porta turpis.Vestibulum non pretium diam.Aenean ut maximus dolor.Morbi quis hendrerit neque, sed tristique nisl.Fusce dignissim nec nisi id vulputate.Nulla et varius augue, a consequat libero.Proin mi nisi, viverra ac lectus sit amet, bibendum tempor ipsum.Etiam vestibulum elit eget pulvinar efficitur.Proin at ligula convallis, posuere neque vitae, suscipit risus.Suspendisse hendrerit interdum nisl, vel porttitor lectus molestie quis.Nam et eros leo.Etiam pharetra sollicitudin porttitor.Nam porta condimentum nisi at convallis.In luctus imperdiet nisl, eget hendrerit nunc gravida non.
+      <p className="body-text">
+        My approach emphasized a distinct graphic style, incorporating abstract geometry and simplified 
+        geometrical representations of each animal.
       </p>
       
     </div>
@@ -135,10 +138,10 @@ const reflectivepractice = {
   photos: [],
   description: (
     <div>
-      <p>
+      <p className="body-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc ut tellus neque.Mauris consequat mauris orci, varius tempor massa egestas nec.Praesent aliquam viverra quam.Integer nec volutpat nisl, fermentum dapibus tortor.Nam malesuada nunc ultrices imperdiet dignissim.Aenean interdum at tortor nec laoreet.Maecenas lorem odio, aliquet vel semper in, semper in libero.
       </p>
-      <p>
+      <p className="body-text">
         Donec ultrices luctus tristique.Mauris at porta turpis.Vestibulum non pretium diam.Aenean ut maximus dolor.Morbi quis hendrerit neque, sed tristique nisl.Fusce dignissim nec nisi id vulputate.Nulla et varius augue, a consequat libero.Proin mi nisi, viverra ac lectus sit amet, bibendum tempor ipsum.Etiam vestibulum elit eget pulvinar efficitur.Proin at ligula convallis, posuere neque vitae, suscipit risus.Suspendisse hendrerit interdum nisl, vel porttitor lectus molestie quis.Nam et eros leo.Etiam pharetra sollicitudin porttitor.Nam porta condimentum nisi at convallis.In luctus imperdiet nisl, eget hendrerit nunc gravida non.
       </p>
       

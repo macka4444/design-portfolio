@@ -20,6 +20,7 @@ nav{
 
 .menu_item{
   font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
   font-size: 1.15em;
   margin-bottom:30px;
   color: #a5bf97;
@@ -28,6 +29,7 @@ nav{
 
 .current_menu_item{
   font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
   font-size: 1.15em;
   margin-bottom:30px;
   color: #688d52;

@@ -1,4 +1,5 @@
-﻿.container{
+﻿
+.container{
     height: 100vh;
     width: 100vw;
 }
@@ -28,7 +29,6 @@ nav{
 }
 
 .photo_holder{
-    scroll-snap-align: start;
     height: 100vh;
     width: 100%;
     display: flex; 
@@ -38,13 +38,17 @@ nav{
 
 .photo{
     position: relative;
-    /* top: 128px; */
+    top: 127px;
     width:80%;
-    align-self: center;
+    align-self: flex-start;
 }
 
 .text{
+    position: relative;
+    /* align-self: center; */
+    margin-top: 95px;
     flex:2;
+    margin-right: 40px;
 }
 
 .full_dot{
@@ -75,4 +79,11 @@ nav{
     display: flex;
     margin: 0 auto;
     left: 34%;
+}
+
+.title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: #2a3b2e;
+
 }

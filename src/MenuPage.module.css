@@ -1,6 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
-
-.container{
+﻿.container{
   position: fixed;
   left:0;
   top:0;
@@ -64,6 +62,7 @@ li{
 
 .menu_item{
   font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
   font-size: 4em;
   margin-bottom:30px;
   color: #a5bf97;
