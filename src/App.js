@@ -24,6 +24,8 @@ import making_images_10 from "./photos/making_images/monkey.jpg"
 import making_images_11 from "./photos/making_images/dog.jpg"
 import making_images_12 from "./photos/making_images/rabbit.jpg"
 
+import make_my_type_1 from "./photos/make_my_type/poster.jpg"
+
 const Intro = () => (
   <div className="intro-container">
     <img src={logo} className="intro-macka-logo" alt="macka logo" />
@@ -166,8 +168,10 @@ const elementsofdesign = {
 }
 
 const makemytype = {
-  title: "makemytype",
-  photos: [],
+  title: "MAKE MY TYPE",
+  photos: [
+    [make_my_type_1, 'Poster quoting Paul Klee - "Colour is the place where the brain and the universe meet"'],
+  ],
   description: (
     <div>
       <p>

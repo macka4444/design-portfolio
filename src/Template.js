@@ -42,8 +42,10 @@ const FilledTemplate = (props) => {
             <div className={styles.content}>
                 <div className={styles.gallery} onScroll={scrollHandler} ref={ref}>
                     {photo_array}
-                    <div className={styles.dots_holder}>
-                        {dots}
+                    <div className={styles.dots_holder_container}>
+                        <div className={styles.dots_holder}>
+                            {dots}
+                        </div>
                     </div>
                 </div>
                 <div className={styles.text}>

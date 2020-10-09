@@ -21,6 +21,21 @@ nav{
 .gallery{
     flex:3;
     overflow-y: scroll;
+    display: relative;
+}
+
+.dots_holder_container{
+    position: absolute;
+    bottom: 0px;
+    width: calc((100vw - 320px) * 3 / 5);
+    display: flex;
+    justify-content: center;
+}
+
+.dots_holder{
+    display: flex;
+    position: absolute;
+    bottom: 40px;
 
 }
 
@@ -39,8 +54,9 @@ nav{
 .photo{
     position: relative;
     top: 127px;
-    width:80%;
+    max-width:80%;
     align-self: flex-start;
+    max-height: 70vh;
 }
 
 .text{
@@ -71,14 +87,6 @@ nav{
 
     border-color: #FFF8E3;
     margin: 4px;
-}
-
-.dots_holder{
-    position: absolute;
-    bottom: 40px;
-    display: flex;
-    margin: 0 auto;
-    left: 34%;
 }
 
 .title{
