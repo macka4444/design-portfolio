@@ -37,12 +37,13 @@
 
 .macka_logo {
   height: 18vh;
+  max-width: 85vw;
   margin-block-start: 60px;
 }
 
 ul{
-  margin-block-start: 60px;
   margin-bottom: 0;
+  margin-block-start: 60px;
   text-align: center;
   list-style: none;
   padding:0;
@@ -71,4 +72,34 @@ li{
 
 .menu_item:hover{
   color: #f7941d;
+}
+
+
+@media only screen and (max-width: 900px){
+  .menu_item{
+    font-size: 3em;
+  }
+  ul{
+    margin-block-start: 60px;
+  }
+
+}
+
+@media only screen and (max-width: 640px){
+  .menu_item{
+    font-size: 2em;
+  }
+
+  ul{
+    margin-block-start: 30px;
+  }
+}
+
+@media only screen and (max-width: 450px){
+  .menu_item{
+    font-size: 1.2em;
+  }
+  ul{
+    margin-block-start: 10px;
+  }
 }
