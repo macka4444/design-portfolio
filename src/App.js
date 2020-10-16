@@ -36,6 +36,29 @@ import letterwork_4 from "./photos/letterwork/centaur3.jpg"
 import letterwork_5 from "./photos/letterwork/gill1.jpg"
 import letterwork_6 from "./photos/letterwork/centaur1.jpg"
 
+import eod_1 from "./photos/elements_of_design/eod1.jpg"
+import eod_2 from "./photos/elements_of_design/eod2.jpg"
+import eod_3 from "./photos/elements_of_design/eod3.jpg"
+import eod_4 from "./photos/elements_of_design/eod4.jpg"
+import eod_5 from "./photos/elements_of_design/eod5.jpg"
+import eod_6 from "./photos/elements_of_design/eod6.jpg"
+import eod_7 from "./photos/elements_of_design/eod7.jpg"
+import eod_8 from "./photos/elements_of_design/eod8.jpg"
+import eod_9 from "./photos/elements_of_design/eod9.jpg"
+import eod_10 from "./photos/elements_of_design/eod10.jpg"
+import eod_11 from "./photos/elements_of_design/eod11.jpg"
+import eod_12 from "./photos/elements_of_design/eod12.jpg"
+import eod_13 from "./photos/elements_of_design/eod13.jpg"
+import eod_14 from "./photos/elements_of_design/eod14.jpg"
+import eod_15 from "./photos/elements_of_design/eod15.jpg"
+import eod_16 from "./photos/elements_of_design/eod16.jpg"
+import eod_17 from "./photos/elements_of_design/eod17.jpg"
+import eod_18 from "./photos/elements_of_design/eod18.jpg"
+import eod_19 from "./photos/elements_of_design/eod19.jpg"
+import eod_20 from "./photos/elements_of_design/eod20.jpg"
+
+
+
 const Intro = () => (
   <div className="intro-container">
     <img src={logo} className="intro-macka-logo" alt="macka logo" />
@@ -183,7 +206,28 @@ const reflectivepractice = {
 
 const elementsofdesign = {
   title: "ELEMENTS OF DESIGN",
-  photos: [],
+  photos: [
+    [eod_1, "Image of a cactus demonstrating 'point'"],
+    [eod_2, "Image of a telegraph pole demonstrating 'line'"],
+    [eod_3, "Image of a building demonstrating 'plane'"],
+    [eod_4, "Image of a hedge demonstrating 'rythm'"],
+    [eod_5, "Image of a lighthouse demonstrating 'balance'"],
+    [eod_6, "Image of a helicopter demonstrating 'scale'"],
+    [eod_7, "Image of a telegraph pole demonstrating 'texture'"],
+    [eod_8, "Image of a flower demonstrating 'colour'"],
+    [eod_9, "Image of a fence paling demonstrating 'figure and ground'"],
+    [eod_10, "Image of signage scaffolding demonstrating 'framing'"],
+    [eod_11, "Image of a pillar demonstrating 'hierarchy'"],
+    [eod_12, "Image of a building's exterior moulding demonstrating 'layer'"],
+    [eod_13, "Image of a light fixture demonstrating 'transparency'"],
+    [eod_14, "Image of a building's facade demonstrating 'modularity'"],
+    [eod_15, "Image of a fence lattice demonstrating 'grid'"],
+    [eod_16, "Image of a palm tree demonstrating 'pattern'"],
+    [eod_17, "Image of a boat's wake demonstrating 'time'"],
+    [eod_18, "Image of a rippling flag demonstrating 'motion'"],
+    [eod_19, "Image of a harbour marker demonstrating 'rules'"],
+    [eod_20, "Image of a rock formation demonstrating 'randomness'"],
+  ],
   description: (
     <div>
       <p className="body-text">
