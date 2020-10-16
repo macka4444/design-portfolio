@@ -1,4 +1,4 @@
-﻿import React from 'react';
+﻿import React, {useState} from 'react';
 import styles from './Navbar.module.css';
 import { Link, useLocation} from "react-router-dom";
 import logo from './logobg.svg';
@@ -6,7 +6,7 @@ import logo from './logobg.svg';
 
 const Navbar = (props) => {
     const location = useLocation().pathname;
-    console.log(location)
+
     const pathnames = [
         ["/about","ABOUT"],
         ["/letterwork","LETTERWORK"],
@@ -32,8 +32,8 @@ const Navbar = (props) => {
         }
     )
 
-    return (
-        <nav>
+    const Nav = () => (
+        <nav className={styles.fullscreen}>
             <Link to="/home">
                 <img src={logo} className={styles.logo} alt="macka logo" />
             </Link>
@@ -41,6 +41,32 @@ const Navbar = (props) => {
                 {navMenuItems}
             </ul>
         </nav>
+    )
+    
+    const Togglable = () => {
+        const [state, setState] = useState(false);
+        const menu = (false) 
+            ? (
+                <div>
+                    {/* cross button */}
+                    <Nav />
+                </div>
+            )
+            : (
+                <div>
+                    {/* hamburger menu button */}
+                </div>
+            )
+
+            
+        return menu
+    }
+
+    return (
+        <div>
+            <Nav/>
+            <Togglable/>
+        </div>
     )
 }
 
