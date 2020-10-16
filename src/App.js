@@ -75,15 +75,19 @@ function App() {
 }
 
 const about = {
-  title: "about",
+  title: "ABOUT",
   photos: [],
   description: (
     <div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc ut tellus neque.Mauris consequat mauris orci, varius tempor massa egestas nec.Praesent aliquam viverra quam.Integer nec volutpat nisl, fermentum dapibus tortor.Nam malesuada nunc ultrices imperdiet dignissim.Aenean interdum at tortor nec laoreet.Maecenas lorem odio, aliquet vel semper in, semper in libero.
+      <p className="body-text">
+        What's up. I'm Macka, a first year visual communications student at UTS. I actually have a computer
+        science background, but after a year in that line of work I decided it wasn't for me. I felt a strong
+        need to switch to a field with more creative focus and having done graphic design as a hobby for years
+        the choice to pursue it was easy.
       </p>
-      <p>
-        Donec ultrices luctus tristique.Mauris at porta turpis.Vestibulum non pretium diam.Aenean ut maximus dolor.Morbi quis hendrerit neque, sed tristique nisl.Fusce dignissim nec nisi id vulputate.Nulla et varius augue, a consequat libero.Proin mi nisi, viverra ac lectus sit amet, bibendum tempor ipsum.Etiam vestibulum elit eget pulvinar efficitur.Proin at ligula convallis, posuere neque vitae, suscipit risus.Suspendisse hendrerit interdum nisl, vel porttitor lectus molestie quis.Nam et eros leo.Etiam pharetra sollicitudin porttitor.Nam porta condimentum nisi at convallis.In luctus imperdiet nisl, eget hendrerit nunc gravida non.
+      <p className="body-text">
+        This website documents some of my favorite work from my first year of study. Take a look around, there's 
+        some stuff I'm really proud of!
       </p>
       
     </div>
@@ -91,17 +95,21 @@ const about = {
 }
 
 const letterwork = {
-  title: "Letterwork",
+  title: "LETTERWORK",
   photos: [],
   description: (
     <div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc ut tellus neque.Mauris consequat mauris orci, varius tempor massa egestas nec.Praesent aliquam viverra quam.Integer nec volutpat nisl, fermentum dapibus tortor.Nam malesuada nunc ultrices imperdiet dignissim.Aenean interdum at tortor nec laoreet.Maecenas lorem odio, aliquet vel semper in, semper in libero.
+      <p className="body-text">
+        This is the very first project completed for my visual communications course. It is an intersection 
+        of two interests of mine: typography and paper craft. The brief tasked us with analysing two fonts,
+        in my case Gill Sans and Centaur, by generating three outcomes for each representing character, 
+        characterisaton and characteristics.
       </p>
-      <p>
-        Donec ultrices luctus tristique.Mauris at porta turpis.Vestibulum non pretium diam.Aenean ut maximus dolor.Morbi quis hendrerit neque, sed tristique nisl.Fusce dignissim nec nisi id vulputate.Nulla et varius augue, a consequat libero.Proin mi nisi, viverra ac lectus sit amet, bibendum tempor ipsum.Etiam vestibulum elit eget pulvinar efficitur.Proin at ligula convallis, posuere neque vitae, suscipit risus.Suspendisse hendrerit interdum nisl, vel porttitor lectus molestie quis.Nam et eros leo.Etiam pharetra sollicitudin porttitor.Nam porta condimentum nisi at convallis.In luctus imperdiet nisl, eget hendrerit nunc gravida non.
+      <p className="body-text">
+        The project also served as our first formal introduction to anatomies and taxonomies of typefaces. 
+        We studied broad categorisations of serifs and sans serifs, but also more subtle classifications 
+        such as geometric, grotesque, neo-grotesque and humanist fonts. 
       </p>
-      
     </div>
   )
 }
@@ -139,15 +147,20 @@ const makingimages = {
 }
 
 const reflectivepractice = {
-  title: "reflectivepractice",
+  title: "REFLECTIVE PRACTICE",
   photos: [],
   description: (
     <div>
       <p className="body-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc ut tellus neque.Mauris consequat mauris orci, varius tempor massa egestas nec.Praesent aliquam viverra quam.Integer nec volutpat nisl, fermentum dapibus tortor.Nam malesuada nunc ultrices imperdiet dignissim.Aenean interdum at tortor nec laoreet.Maecenas lorem odio, aliquet vel semper in, semper in libero.
+        This assignment called on us to continuously reflect upon our own practice, as
+        well as the practice of other designers. The outcomes seen here include a series of insight
+        cards, serving to capture and communicate some key learnings from my second semester. 
       </p>
       <p className="body-text">
-        Donec ultrices luctus tristique.Mauris at porta turpis.Vestibulum non pretium diam.Aenean ut maximus dolor.Morbi quis hendrerit neque, sed tristique nisl.Fusce dignissim nec nisi id vulputate.Nulla et varius augue, a consequat libero.Proin mi nisi, viverra ac lectus sit amet, bibendum tempor ipsum.Etiam vestibulum elit eget pulvinar efficitur.Proin at ligula convallis, posuere neque vitae, suscipit risus.Suspendisse hendrerit interdum nisl, vel porttitor lectus molestie quis.Nam et eros leo.Etiam pharetra sollicitudin porttitor.Nam porta condimentum nisi at convallis.In luctus imperdiet nisl, eget hendrerit nunc gravida non.
+        Also included an outcome from the "Image That Can Change" component of the assignment. This takes
+        the form of a graphic rendered through the library p5.js. My graphic is an indication of what is
+        liable to happen if you do not manage your time well (metaphorically, of course). Click the image
+        to find out.
       </p>
       
     </div>
@@ -155,17 +168,20 @@ const reflectivepractice = {
 }
 
 const elementsofdesign = {
-  title: "elementsofdesign",
+  title: "Elements of Design",
   photos: [],
   description: (
     <div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc ut tellus neque.Mauris consequat mauris orci, varius tempor massa egestas nec.Praesent aliquam viverra quam.Integer nec volutpat nisl, fermentum dapibus tortor.Nam malesuada nunc ultrices imperdiet dignissim.Aenean interdum at tortor nec laoreet.Maecenas lorem odio, aliquet vel semper in, semper in libero.
+      <p className="body-text">
+        This project required us to photographically capture 20 elements of design whilst maintaining
+        a sense of visual consistency across the set. The project emphasized both taking and 
+        curating photos. At the end of this process I came away with this series tied together by a
+        visual theme framing imagery against a vast blue sky.
       </p>
-      <p>
-        Donec ultrices luctus tristique.Mauris at porta turpis.Vestibulum non pretium diam.Aenean ut maximus dolor.Morbi quis hendrerit neque, sed tristique nisl.Fusce dignissim nec nisi id vulputate.Nulla et varius augue, a consequat libero.Proin mi nisi, viverra ac lectus sit amet, bibendum tempor ipsum.Etiam vestibulum elit eget pulvinar efficitur.Proin at ligula convallis, posuere neque vitae, suscipit risus.Suspendisse hendrerit interdum nisl, vel porttitor lectus molestie quis.Nam et eros leo.Etiam pharetra sollicitudin porttitor.Nam porta condimentum nisi at convallis.In luctus imperdiet nisl, eget hendrerit nunc gravida non.
+      <p className="body-text">
+        At the outset photography was a foreign medium to me, however I relished the opportunity to 
+        experiment, learn, and engage with the world through the camera’s lens.
       </p>
-      
     </div>
   )
 }
@@ -185,30 +201,31 @@ const makemytype = {
         essence of the quote and the historical context of the author to whom the quote was attributed to
         through use of handmade elements. In my work I aimed to communicate this through a playfulness for
         which Paul Klee was known, and a colour scheme reminiscent of his work on colour theory.
-        
       </p>
       <p className="body-text">
         The choice of the use of paper craft is a continuation of a developing affinity with the medium
         which is apparent from my first year body of work. I have included photos of some Illustrator 
         mockups to give and idea of my process.
       </p>
-      
     </div>
   )
 }
 
 const chanceandchoice = {
-  title: "chanceandchoice",
+  title: "CHANCE AND CHOICE",
   photos: [],
   description: (
     <div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc ut tellus neque.Mauris consequat mauris orci, varius tempor massa egestas nec.Praesent aliquam viverra quam.Integer nec volutpat nisl, fermentum dapibus tortor.Nam malesuada nunc ultrices imperdiet dignissim.Aenean interdum at tortor nec laoreet.Maecenas lorem odio, aliquet vel semper in, semper in libero.
+      <p className="body-text">
+        This assignment introduced us to the possibilities associated with incorporating elements of
+        chance into the design process. Using a series of prompts and randomness we generated a concept
+        for a world, which served as a basis for both a small zine and virtual experience.
       </p>
-      <p>
-        Donec ultrices luctus tristique.Mauris at porta turpis.Vestibulum non pretium diam.Aenean ut maximus dolor.Morbi quis hendrerit neque, sed tristique nisl.Fusce dignissim nec nisi id vulputate.Nulla et varius augue, a consequat libero.Proin mi nisi, viverra ac lectus sit amet, bibendum tempor ipsum.Etiam vestibulum elit eget pulvinar efficitur.Proin at ligula convallis, posuere neque vitae, suscipit risus.Suspendisse hendrerit interdum nisl, vel porttitor lectus molestie quis.Nam et eros leo.Etiam pharetra sollicitudin porttitor.Nam porta condimentum nisi at convallis.In luctus imperdiet nisl, eget hendrerit nunc gravida non.
+      <p className="body-text">
+        The virtual experience was made on the Mozilla hubs platform. It was an interesting opportunity
+        to think about interactivity and user experience which I hope to explore more in my work in the
+        future. 
       </p>
-      
     </div>
   )
 }
