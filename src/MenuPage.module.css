@@ -80,7 +80,10 @@ li{
     font-size: 3em;
   }
   ul{
-    margin-block-start: 60px;
+    margin-block-start: 50px;
+  }
+  .macka_logo {
+    margin-block-start: 50px;
   }
 
 }
@@ -89,8 +92,10 @@ li{
   .menu_item{
     font-size: 2em;
   }
-
   ul{
+    margin-block-start: 30px;
+  }
+  .macka_logo {
     margin-block-start: 30px;
   }
 }
@@ -100,6 +105,9 @@ li{
     font-size: 1.2em;
   }
   ul{
+    margin-block-start: 10px;
+  }
+  .macka_logo {
     margin-block-start: 10px;
   }
 }
