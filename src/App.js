@@ -29,6 +29,13 @@ import make_my_type_2 from "./photos/make_my_type/mockup1.png"
 import make_my_type_3 from "./photos/make_my_type/mockup2.png"
 import make_my_type_4 from "./photos/make_my_type/photo.jpg"
 
+import letterwork_1 from "./photos/letterwork/gill2.jpg"
+import letterwork_2 from "./photos/letterwork/centaur2.jpg"
+import letterwork_3 from "./photos/letterwork/gill3.jpg"
+import letterwork_4 from "./photos/letterwork/centaur3.jpg"
+import letterwork_5 from "./photos/letterwork/gill1.jpg"
+import letterwork_6 from "./photos/letterwork/centaur1.jpg"
+
 const Intro = () => (
   <div className="intro-container">
     <img src={logo} className="intro-macka-logo" alt="macka logo" />
@@ -96,7 +103,14 @@ const about = {
 
 const letterwork = {
   title: "LETTERWORK",
-  photos: [],
+  photos: [
+    [letterwork_1, "Gill Sans character - lower case 'g'"],
+    [letterwork_2, "Centaur character - Upper case 'Q'"],
+    [letterwork_3, "Gill Sans characterisation"],
+    [letterwork_4, "Centaur characterisation"],
+    [letterwork_5, "Gill Sans characteristics"],
+    [letterwork_6, "Centaur characteristics"],
+  ],
   description: (
     <div>
       <p className="body-text">
@@ -168,7 +182,7 @@ const reflectivepractice = {
 }
 
 const elementsofdesign = {
-  title: "Elements of Design",
+  title: "ELEMENTS OF DESIGN",
   photos: [],
   description: (
     <div>
