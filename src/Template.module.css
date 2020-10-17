@@ -23,24 +23,38 @@ nav{
     overflow-y: scroll;
     display: relative;
 }
-
+/* 
 .dots_holder_container{
     position: absolute;
     bottom: 0px;
     width: calc((100vw - 320px) * 3 / 5);
     display: flex;
     justify-content: center;
+} */
+
+.dots_holder_container{
+    height: 100%;
+    /* width: 100%; */
+    position: absolute;
+    bottom: 0px;
+    /* width: calc((100vw - 320px) * 3 / 5); */
+    display: flex;
+    align-items: center;
 }
 
 .dots_holder{
     display: flex;
+    align-items: center;
+
+    flex-direction: column;
     position: absolute;
-    bottom: 40px;
+    /* bottom: 25%; */
+    left: 15px;
 
 }
 
 .gallery::-webkit-scrollbar {
-  display: none; /* chromw hide scrollbar */
+  display: none; /* chrome hide scrollbar */
 }
 
 .photo_holder{
@@ -96,8 +110,56 @@ nav{
 
 }
 
+@media only screen and (max-width: 950px){
+  .content{
+
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 130vh;
+  }
+  .text{
+      max-width: 70vw;
+      margin-top: 40px;
+      margin-right: 15px;
+  }
+  .gallery{
+    height:100vh;
+    width: 100vw;
+  }
+  .dots_holder_container{
+          bottom: -245px;
+    position: absolute;
+    height: 69%;
+    display: flex;
+    align-items: center;
+  }
+
+  .dots_holder{
+    display: flex;
+    align-items: end;
+    left: 3vw; 
+  }
+  .photo_holder{
+    background-color:#85997a;
+    /* margin-bottom: 30px; */
+    }
+    .full_dot{
+        height: 8px;
+        width: 8px;
+        margin: 2px;
+    }
+
+    .empty_dot{
+        height: 8px;
+        width: 8px;
+        margin: 2px;
+    }
+}
+
 @media only screen and (max-width: 1200px){
   .content{
     width: 100vw;
+    
   }
+
 }
