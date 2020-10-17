@@ -51,7 +51,7 @@ const Navbar = (props) => {
             ? (
                 <div className={styles.menu_container_small_screen}>
                     <button className={styles.close_button} onClick={()=>setState(false)}>
-                        <img src={close_icon} className={styles.icon}/>
+                        <img src={close_icon} className={styles.icon} alt="close navbar icon"/>
                     </button>
                     <nav >
                         <Link to="/home">
@@ -66,7 +66,7 @@ const Navbar = (props) => {
             : (
                 <div>
                     <button className={styles.menu_button} onClick={() => setState(true)}>
-                        <img src={menu_icon} className={styles.icon} />
+                        <img src={menu_icon} className={styles.icon} alt="open navbar icon" />
                     </button>
                 </div>
             )
