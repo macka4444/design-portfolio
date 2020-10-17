@@ -2,6 +2,8 @@
 import styles from './Navbar.module.css';
 import { Link, useLocation} from "react-router-dom";
 import logo from './logobg.svg';
+import close_icon from './photos/close.svg';
+import menu_icon from './photos/menu.svg';
 
 
 const Navbar = (props) => {
@@ -32,8 +34,8 @@ const Navbar = (props) => {
         }
     )
 
-    const Nav = () => (
-        <nav className={styles.fullscreen}>
+    const Nav = (props) => (
+        <nav className={styles.menu_container}>
             <Link to="/home">
                 <img src={logo} className={styles.logo} alt="macka logo" />
             </Link>
@@ -45,16 +47,27 @@ const Navbar = (props) => {
     
     const Togglable = () => {
         const [state, setState] = useState(false);
-        const menu = (false) 
+        const menu = (state) 
             ? (
-                <div>
-                    {/* cross button */}
-                    <Nav />
+                <div className={styles.menu_container_small_screen}>
+                    <button className={styles.close_button} onClick={()=>setState(false)}>
+                        <img src={close_icon} className={styles.icon}/>
+                    </button>
+                    <nav >
+                        <Link to="/home">
+                            <img src={logo} className={styles.logo} alt="macka logo" />
+                        </Link>
+                        <ul className={styles.menu_list}>
+                            {navMenuItems}
+                        </ul>
+                    </nav>
                 </div>
             )
             : (
                 <div>
-                    {/* hamburger menu button */}
+                    <button className={styles.menu_button} onClick={() => setState(true)}>
+                        <img src={menu_icon} className={styles.icon} />
+                    </button>
                 </div>
             )
 
