@@ -12,11 +12,24 @@ const FilledTemplate = (props) => {
     //photos
     let i = 0;
     const photo_array = content.photos.map(
-        (photo) => (
-            <div className={styles.photo_holder} key={i++}>
-                <img src={photo[0]} className={styles.photo} alt={photo[1]} />
-            </div>
-        )
+        (photo) => {
+            if (photo.length === 2) {
+                return (
+                    <div className={styles.photo_holder} key={i++}>
+                        <img src={photo[0]} className={styles.photo} alt={photo[1]} />
+                    </div>
+                )
+            } else {
+                // special case for p5 sketch
+                return (
+                    <div className={styles.photo_holder} key={i++}>
+                        <div className={styles.photo}>
+                            {photo[0]}
+                        </div>
+                    </div>
+                )
+            }
+        }
             
     )
     

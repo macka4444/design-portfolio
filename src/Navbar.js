@@ -5,7 +5,6 @@ import logo from './logobg.svg';
 import close_icon from './photos/close.svg';
 import menu_icon from './photos/menu.svg';
 
-
 const Navbar = (props) => {
     const location = useLocation().pathname;
 

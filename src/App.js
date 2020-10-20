@@ -11,6 +11,8 @@ import MenuPage from './MenuPage.js'
 import MenuPageNoAnimation from './MenuPageNoAnimation.js'
 import Page from './Template.js'
 
+import Bomb from './Bomb.js';
+
 import making_images_1 from "./photos/making_images/tiger.jpg"
 import making_images_2 from "./photos/making_images/rooster.jpg"
 import making_images_3 from "./photos/making_images/dragon.jpg"
@@ -185,7 +187,12 @@ const makingimages = {
 
 const reflectivepractice = {
   title: "REFLECTIVE PRACTICE",
-  photos: [],
+  photos: [
+    [<Bomb/>],
+    [making_images_1, "Tiger collage"],
+    [making_images_2, "Rooster collage"],
+    [making_images_3, "Dragon collage"],
+  ],
   description: (
     <div>
       <p className="body-text">
