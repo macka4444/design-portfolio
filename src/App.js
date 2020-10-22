@@ -13,6 +13,8 @@ import Page from './Template.js'
 
 import Bomb from './Bomb.js';
 
+import about_pic from "./photos/about.jpg"
+
 import making_images_1 from "./photos/making_images/tiger.jpg"
 import making_images_2 from "./photos/making_images/rooster.jpg"
 import making_images_3 from "./photos/making_images/dragon.jpg"
@@ -117,7 +119,9 @@ function App() {
 
 const about = {
   title: "ABOUT",
-  photos: [],
+  photos: [
+    [about_pic, "a picture of Macka"]
+  ],
   description: (
     <div>
       <p className="body-text">
