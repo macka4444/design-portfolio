@@ -63,7 +63,12 @@ import reflective_practice_1 from "./photos/reflective_practice/reflection1.png"
 import reflective_practice_2 from "./photos/reflective_practice/reflection2.png"
 import reflective_practice_3 from "./photos/reflective_practice/reflection3.png"
 
-
+import chance_and_choice_1 from "./photos/chance_and_choice/zine_1.jpg"
+import chance_and_choice_2 from "./photos/chance_and_choice/zine_2.jpg"
+import chance_and_choice_3 from "./photos/chance_and_choice/zine_3.jpg"
+import chance_and_choice_4 from "./photos/chance_and_choice/virtual_1.jpg"
+import chance_and_choice_5 from "./photos/chance_and_choice/virtual_2.jpg"
+import chance_and_choice_6 from "./photos/chance_and_choice/virtual_3.jpg"
 
 const Intro = () => (
   <div className="intro-container">
@@ -282,7 +287,14 @@ const makemytype = {
 
 const chanceandchoice = {
   title: "CHANCE AND CHOICE",
-  photos: [],
+  photos: [
+    [chance_and_choice_1, 'Chance and choice zine - cover'],
+    [chance_and_choice_2, 'Chance and choice zine - pages'],
+    [chance_and_choice_3, 'Chance and choice zine - poster'],
+    [chance_and_choice_4, 'Virtual environment - spawn point at the bottom of the hill'],
+    [chance_and_choice_5, 'Virtual environment - reaching the top of the hill'],
+    [chance_and_choice_6, 'Virtual environment - humming bird flying around tree'],
+  ],
   description: (
     <div>
       <p className="body-text">
