@@ -59,6 +59,10 @@ import eod_18 from "./photos/elements_of_design/eod18.jpg"
 import eod_19 from "./photos/elements_of_design/eod19.jpg"
 import eod_20 from "./photos/elements_of_design/eod20.jpg"
 
+import reflective_practice_1 from "./photos/reflective_practice/reflection1.png"
+import reflective_practice_2 from "./photos/reflective_practice/reflection2.png"
+import reflective_practice_3 from "./photos/reflective_practice/reflection3.png"
+
 
 
 const Intro = () => (
@@ -189,9 +193,9 @@ const reflectivepractice = {
   title: "REFLECTIVE PRACTICE",
   photos: [
     [<Bomb/>],
-    [making_images_1, "Tiger collage"],
-    [making_images_2, "Rooster collage"],
-    [making_images_3, "Dragon collage"],
+    [reflective_practice_1, "Stay on top of your workload"],
+    [reflective_practice_2, "You're not at uni to get good marks"],
+    [reflective_practice_3, "Trust the process"],
   ],
   description: (
     <div>
