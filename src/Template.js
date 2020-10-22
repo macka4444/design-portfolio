@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import styles from './Template.module.css';
 import Navbar from './Navbar.js'
 
@@ -7,11 +7,17 @@ const FilledTemplate = (props) => {
     let { content } = props
     let ref = React.createRef();
     const [pageNumber, setPageNumber] = useState(1);
-
+    let photo_array = []
+    
+    useEffect(() => {
+        for (let j = 0; j < photo_array.length; j++) {
+            photo_array[j] = <div className={styles.photo_holder}></div>
+        }
+    })
 
     //photos
     let i = 0;
-    const photo_array = content.photos.map(
+    photo_array = content.photos.map(
         (photo) => {
             if (photo.length === 2) {
                 return (

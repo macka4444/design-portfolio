@@ -86,7 +86,7 @@ function App() {
           <Intro/>
           <MenuPage/>
         </Route>
-        <Route exact path="/home">
+        <Route path="/home">
           <MenuPageNoAnimation />
         </Route>
         <Route path="/about">
