@@ -20,16 +20,80 @@ nav{
 
 .menu_item{
   font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
   font-size: 1.15em;
   margin-bottom:30px;
-  color: #00C0FF;
+  color: #a5bf97;
+  text-decoration: none;
+}
+
+.current_menu_item{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1.15em;
+  margin-bottom:30px;
+  color: #688d52;
   text-decoration: none;
 }
 
 .menu_item:hover{
-  color: #FF00E4;
+  color: #f7941d;
 }
 
-ul{
+.menu_list{
     margin-top:30px;
+    width:100%;
+}
+
+.icon{
+  height: 30px;
+  width: 30px;
+}
+
+.menu_button{
+  position: absolute;
+  border: none;
+  top: 15px;
+  left: 15px;
+  background-color: transparent;
+  outline: 0;
+}
+
+.close_button{
+  z-index: 1;
+  position: absolute;
+  border: none;
+  top: 10px;
+  left: 230px;
+  background-color: transparent;
+  outline: 0;
+}
+
+.menu_container{
+  position: absolute;
+  left:0;
+  top: 0;
+  height: 100vh;
+  width: 280px;
+  margin-right: 0px;
+  background-color: #FFF8E3;
+
+}
+
+.menu_container_small_screen{
+  position: absolute;
+  left:0;
+  top: 0;
+  height: 100vh;
+  width: 280px;
+  margin-right: 0px;
+  background-color: #FFF8E3;
+  z-index: 1;
+}
+
+
+@media only screen and (max-width: 1200px){
+  .menu_container{
+    display: none;
+  }
 }
