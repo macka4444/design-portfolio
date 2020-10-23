@@ -7,17 +7,14 @@ const FilledTemplate = (props) => {
     let { content } = props
     let ref = React.createRef();
     const [pageNumber, setPageNumber] = useState(1);
-    let photo_array = []
     
     useEffect(() => {
-        for (let j = 0; j < photo_array.length; j++) {
-            photo_array[j] = <div className={styles.photo_holder}></div>
-        }
+        setPageNumber(pageNumber)
     })
 
     //photos
     let i = 0;
-    photo_array = content.photos.map(
+    let photo_array = content.photos.map(
         (photo) => {
             if (photo.length === 2) {
                 return (

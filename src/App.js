@@ -307,7 +307,7 @@ const chanceandchoice = {
         for a world, which served as a basis for both a small zine and virtual experience.
       </p>
       <p className="body-text">
-        The virtual experience was made on the Mozilla hubs platform. It was an interesting opportunity
+        <a href="https://hubs.mozilla.com/scenes/atYYtgi" target="_blank">The virtual experience</a> was made on the Mozilla hubs platform. It was an interesting opportunity
         to think about interactivity and user experience which I hope to explore more in my work in the
         future. 
       </p>
