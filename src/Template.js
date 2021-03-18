@@ -25,7 +25,7 @@ const FilledTemplate = (props) => {
             } else {
                 // special case for p5 sketch
                 return (
-                    <div className={styles.photo_holder} key={i++}>
+                    <div className={styles.photo_holder} key={i++} >
                         <div className={styles.photo}>
                             {photo[0]}
                         </div>

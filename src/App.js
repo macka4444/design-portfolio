@@ -106,6 +106,9 @@ function App() {
         <Route path="/chanceandchoice">
           <Page content={chanceandchoice} />
         </Route>
+        <Route path="/kinetictype">
+          <Page content={kinetictype} />
+        </Route>
       </Switch>
     </Router>
   );
@@ -321,6 +324,36 @@ const chanceandchoice = {
         experience</a> was made on the Mozilla hubs platform. It was an interesting opportunity
         to think about interactivity and user experience which I hope to explore more in my work 
         in the future. 
+      </p>
+    </div>
+  ),
+};
+
+const kinetictype = {
+  title: "KINETIC TYPE",
+  photos: [
+    [<iframe src="https://player.vimeo.com/video/525317886?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+      frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Nature Shapes Culture"
+      style={{
+        left: 0,
+        width:"35vw",
+        height:"68vh",
+      }}
+    />],
+
+  ],
+  description: (
+    <div>
+      <p className="body-text">
+        This project was a first introduction to motion design. It called on us 
+        to think thematically about a specific place, and then to represent that
+        theme visually by means of animating type. It was also my first encounter
+        with Adobe After Effects.
+      </p>
+      <p className="body-text">
+        The work considers the way in which natural aspects of the world such as
+        landscape, climate, flora and fauna are determinants of the culture of 
+        a locale.
       </p>
     </div>
   ),

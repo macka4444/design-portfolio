@@ -15,7 +15,8 @@ const Navbar = (props) => {
         ["/reflectivepractice","REFLECTIVE PRACTICE"],
         ["/elementsofdesign","ELEMENTS OF DESIGN"],
         ["/makemytype","MAKE MY TYPE"],
-        ["/chanceandchoice","CHANCE AND CHOICE"],
+        ["/chanceandchoice", "CHANCE AND CHOICE"],
+        ["/kinetictype", "KINETIC TYPE"],
     ]
     let i = 0;
     const navMenuItems = pathnames.map(

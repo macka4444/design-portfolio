@@ -43,6 +43,11 @@ function MenuPage() {
                         CHANCE AND CHOICE
                     </Link>
                 </li>
+                <li>
+                    <Link className={styles.menu_item} to="chanceandchoice">
+                        KINETIC TYPE
+                    </Link>
+                </li>
             </ul>
         </div>
 
